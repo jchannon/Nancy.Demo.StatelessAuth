@@ -1,9 +1,9 @@
-﻿using System;
-using Nancy.Authentication.Stateless;
-
-namespace Nancy.Demo.Authentication.Basic
+﻿namespace APINancy
 {
-    using Bootstrapper;
+    using System;
+    using Nancy;
+    using Nancy.Authentication.Stateless;
+    using Nancy.Bootstrapper;
     using Nancy.TinyIoc;
 
     public class AuthenticationBootstrapper : DefaultNancyBootstrapper
@@ -21,9 +21,7 @@ namespace Nancy.Demo.Authentication.Basic
             var configuration =
                 new StatelessAuthenticationConfiguration(nancyContext =>
                 {
-                    //for now, we will pull the apiKey from the querystring, 
-                    //but you can pull it from any part of the NancyContext
-                    const string key = "Bearer ";
+                   const string key = "Bearer ";
                     string accessToken = null;
 
                     if (nancyContext.Request.Headers.Authorization.StartsWith(key))
@@ -34,13 +32,14 @@ namespace Nancy.Demo.Authentication.Basic
                     if (string.IsNullOrWhiteSpace(accessToken))
                         return null;
 
+                    var userValidator = container.Resolve<IUserApiMapper>();
 
-                    //get the user identity however you choose to (for now, using a static class/method)
-                    return UserValidator.GetUserFromApiKey(accessToken);
+                    return userValidator.GetUserFromAccessToken(accessToken);
                 });
 
             StatelessAuthentication.Enable(pipelines, configuration);
 
+            //Make every request SSL based
             //pipelines.BeforeRequest += ctx =>
             //{
             //    return (!ctx.Request.Url.Scheme.Equals("https", StringComparison.OrdinalIgnoreCase)) ?

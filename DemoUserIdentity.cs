@@ -1,4 +1,4 @@
-﻿namespace Nancy.Demo.Authentication.Basic
+﻿namespace APINancy
 {
     using System.Collections.Generic;
     using Nancy.Security;

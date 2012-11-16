@@ -1,7 +1,8 @@
-﻿using Nancy.Security;
-
-namespace Nancy.Demo.Authentication.Basic
+﻿namespace APINancy
 {
+    using Nancy;
+    using Nancy.Security;
+
     public class MainModule : NancyModule
     {
         public MainModule()

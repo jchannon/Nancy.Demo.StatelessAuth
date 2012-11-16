@@ -1,0 +1,15 @@
+C:\Projects\Test\InspectronAPINancy\InspectronAPINancy\bin\Debug\InspectronAPINancy.exe
+C:\Projects\Test\InspectronAPINancy\InspectronAPINancy\bin\Debug\InspectronAPINancy.pdb
+C:\Projects\Test\InspectronAPINancy\InspectronAPINancy\bin\Debug\Nancy.dll
+C:\Projects\Test\InspectronAPINancy\InspectronAPINancy\bin\Debug\Nancy.Hosting.Self.dll
+C:\Projects\Test\InspectronAPINancy\InspectronAPINancy\obj\Debug\InspectronAPINancy.csprojResolveAssemblyReference.cache
+C:\Projects\Test\InspectronAPINancy\InspectronAPINancy\obj\Debug\InspectronAPINancy.exe
+C:\Projects\Test\InspectronAPINancy\InspectronAPINancy\obj\Debug\InspectronAPINancy.pdb
+C:\Projects\Test\InspectronAPINancy\InspectronAPINancy\bin\Debug\Nancy.Authentication.Stateless.dll
+C:\Projects\Test\InspectronAPI\APINancy\obj\Debug\InspectronAPINancy.exe
+C:\Projects\Test\InspectronAPI\APINancy\obj\Debug\InspectronAPINancy.pdb
+C:\Projects\Test\InspectronAPI\APINancy\bin\Debug\InspectronAPINancy.exe
+C:\Projects\Test\InspectronAPI\APINancy\bin\Debug\InspectronAPINancy.pdb
+C:\Projects\Test\InspectronAPI\APINancy\bin\Debug\Nancy.Authentication.Stateless.dll
+C:\Projects\Test\InspectronAPI\APINancy\bin\Debug\Nancy.dll
+C:\Projects\Test\InspectronAPI\APINancy\bin\Debug\Nancy.Hosting.Self.dll

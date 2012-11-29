@@ -21,7 +21,7 @@
             var configuration =
                 new StatelessAuthenticationConfiguration(nancyContext =>
                 {
-                   const string key = "Bearer ";
+                    const string key = "Bearer ";
                     string accessToken = null;
 
                     if (nancyContext.Request.Headers.Authorization.StartsWith(key))

@@ -1,2 +1,2 @@
-NancyAPI-Demo
+Nancy.Demo.StatelessAuth
 =============

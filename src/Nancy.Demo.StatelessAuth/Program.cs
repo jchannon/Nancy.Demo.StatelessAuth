@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace InspectronAPINancy
+﻿namespace Nancy.Demo.StatelessAuth
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+
     class Program
     {
         static void Main(string[] args)

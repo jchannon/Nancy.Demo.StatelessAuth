@@ -1,4 +1,4 @@
-﻿namespace APINancy
+﻿namespace Nancy.Demo.StatelessAuth
 {
     using Nancy;
     using Nancy.Security;

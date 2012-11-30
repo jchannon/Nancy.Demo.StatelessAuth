@@ -7,8 +7,8 @@
     <ProjectGuid>{0E050905-223E-42FA-95D2-B7877F9E99EF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>InspectronAPINancy</RootNamespace>
-    <AssemblyName>InspectronAPINancy</AssemblyName>
+    <RootNamespace>Nance.Demo.StatelessAuth</RootNamespace>
+    <AssemblyName>Nance.Demo.StatelessAuth</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

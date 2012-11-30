@@ -1,4 +1,4 @@
-﻿namespace APINancy
+﻿namespace Nancy.Demo.StatelessAuth
 {
     using System.Collections.Generic;
     using Nancy.Security;
